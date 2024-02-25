@@ -3,6 +3,7 @@
 
 Just open `index.html` in your browser to begin your journey into the world of dinosaurs.
 or you can access it through: ec2-3-134-93-96.us-east-2.compute.amazonaws.com
+- its not certified for HTTPS, you must click on advanced settings and click the link at the bottom or accept risk 
 
 Contribute & Feedback:
 Lissette: parallax attempt, css format, HTML files, api gpt, 
