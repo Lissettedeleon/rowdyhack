@@ -1,0 +1,168 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+	
+::-webkit-scrollbar-track{
+	background-color:#51DB27;
+}
+
+::-webkit-slider-thumb{
+	background-color: #62C191;
+	border-radius: 5rem;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background:#000000;
+	color: #fff;
+	overflow-x: hidden;
+}
+
+header{
+	padding: 25px 10%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	z-index: 1001;
+}
+.logo{
+	font-size: 2rem;
+	color: #30FF71;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+ul.navlist{
+	display: flex;
+	align-items: center;
+}
+
+.navlist li{
+	margin-left: 1rem;
+}
+
+.navlist li a{
+	color: aliceblue;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1rem;
+	padding: 5px 12px;
+	border: 2px solid #2DC03E;
+	border-radius: 25px;
+	transition: all .3s ease;
+}
+
+.navlist li a:hover,
+.navlist li a.active{
+	box-shadow: 0 0 1rem #2DC03E;
+	background: #9BF572;
+	color: #374E0B;
+}
+
+section{
+	min-height: 120vh;
+}
+
+.parallax {
+	display: flex;
+}
+
+.desert {
+	transform: translate(200px, 220px);
+}
+
+.parallax-home{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.parallax-home img{
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+	}
+.parallax-home #text{
+	position: absolute;
+	font-size: 2.5rem;
+	text-shadow: 0 10px 4px rgba(0,0,0,0.85);
+	top: 80%;
+	left: 3%;
+}
+.parallax-home img#meteor{
+	mix-blend-mode: screen;
+}
+
+.HISTORY{
+	position: relative;
+	
+}
+.HISTORY img {
+    position: absolute;
+    z-index: 1000;
+    object-fit:cover;
+    pointer-events:none;
+    left: -20px;
+    top: -150px;
+}
+	
+.HISTORY img .H-waterfall{
+	position: absolute;
+		top:-95px;
+}
+
+.HISTORY .info-box{
+	position: absolute;
+	top: 0%;
+	left: 10%;
+	width: 50%;
+	z-index: 1003;
+	background: #1d002c;
+}
+.HISTORY .info-box h2{
+	font-size: 2.5;
+}
+.HISTORY .info-box p{
+	margin-bottom: 1.5rem;
+	margin-top: .5rem;
+}
+.btn{
+	background: #40DF7E;
+	color: #000000;
+	text-decoration: none;
+	border-radius: 25px;
+	padding: .5rem 1rem;
+	transition: all .3s ease;
+	border: 2px #F5EBEB;
+}
+.dino{
+	background: #121137;
+	padding: 3 rem 10%;
+}
+.dino h2{
+	font-size: 2rem;
+	padding: 2rem 0 1rem 0;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+dino-card{
+	display: flex;
+	align-items: center;
+}
+.dinoleaving {
+    position: absolute; /* or 'relative', depending on your layout needs */
+}
+

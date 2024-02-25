@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+    <style>
+        body {
+            background-color: #00ff00;
+            display: flex;
+            justify-content: space-between;
+            height: 100vh; /* Make the body take up full viewport height */
+        }
+        .main-content {
+            width: 65%; /* Adjust based on your content */
+            /* Additional styling as needed */
+        }
+        .instructions {
+            width: 30%;
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <!-- Main content goes here, e.g., chat widget -->
+    </div>
+    <div class="instructions">
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Click the button and ask it a question.</li>
+            <li>Initially, it may not answer dino questions. Ask something dinosaur-related for a prompt, then any dinosaur-related question.</li>
+        </ol>
+    </div>
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '65d95a5485e6233cd6614a1d' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production'
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+</body>
+</html>
+
+
